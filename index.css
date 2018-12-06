@@ -48,6 +48,19 @@
 	font-size: 3em;			
 }
 
+.second-section::before
+{
+	background-color: white;
+	position: absolute;	
+	left: 0;
+	margin-top: -370px;	
+	width: 100%;
+	height: 300px;
+	content: '';
+	-webkit-clip-path:polygon(0% 71%, 0% 100%, 100% 100%, 100% 88%);
+	clip-path: polygon(0% 71%, 0% 100%, 100% 100%, 100% 88%);
+}
+
 .second-section
 {	
 	height: 800px;
@@ -155,15 +168,20 @@
 }
 
 /* ---------------- to be continued --------------------------*/
-/*.third-section::before
+.third-section::before
 {
 	content: '';
-	background-color: red;
+	-webkit-clip-path:polygon(0% 100%, 100% 100%, 100% 76%, 0% 89%);
+	clip-path: polygon(0% 100%, 100% 100%, 100% 76%, 0% 89%);
+	/*clip-path: polygon(0% 83%, 0% 100%, 100% 100%, 100% 81%, 100% 76%, 100% 71%);*/
+	background-color: #34495e;
 	position: absolute;	
-	width: 300px;
+	left: 0;
+	margin-top: -370px;	
+	width: 100%;
 	height: 300px;
 	z-index: 99;
-}*/
+}
 
 .third-section .card--title::after
 {
