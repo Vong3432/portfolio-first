@@ -3,6 +3,7 @@
 	box-sizing: border-box;	
 	margin: 0 auto;
 	transition: 200ms ease-in-out;
+	-webkit-backface-visibility:hidden;
 }
 
 .first-section,.second-section,.third-section

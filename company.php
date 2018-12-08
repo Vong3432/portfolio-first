@@ -5,22 +5,18 @@
 ?> 
 
 <body>
-<section class="hero">	
-	<div class="hero-describe">
-		<h1 class="font__Anton">Welcome to Company.Co</h1>
-		<p class="font__Nunito-Sans">Company.Co is a website that provide hotel detail, such as fee,rating,needs and more.</p>
-		<p class="font__Nunito-Sans">We always make sure our users can book hotel with acceptable price and stay in comfortable situation.</p>
-	</div>	
-	<div class="hero-image">
-		 <img src="https://i2.wp.com/media.giphy.com/media/72HahsJD4atSE/giphy.gif?ssl=1">
+<section class="first-section">
+	<div class="hero-caption">
+		<h1 class="font__Slabo">Welcome to Company.Co</h1>
+		<p class="font__Nunito-Sans">Save,Easy and Efficient</p>
+		<p class="font__Nunito-Sans" style="margin-top: 10px;font-size: 1.1em">These 3 are our website principles, which let our users to find and book a hotel with reasonable price and comfortable environment.</p>
+	</div>
+	<div class="hero-logo">
+		<img src="https://pngimage.net/wp-content/uploads/2018/06/people-flat-design-png.png">
 	</div>
 </section>
 
-<section class="second-section">
-	
-</section>
-
-<div style="height: 1500px"></div>
+<!-- <div style="height: 1500px"></div> -->
 <script src="company.js"></script>
 </body>
 

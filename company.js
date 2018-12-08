@@ -1,12 +1,8 @@
 $(window).scroll(function(){
-	parallax();
+	
 	shrink();
 });
 
-function parallax()
-{
-	var wScroll = $(window).scrollTop();	
-}
 
 var lastScrollTop = 0;
 function shrink()
@@ -14,7 +10,7 @@ function shrink()
 	var wScroll = $(window).scrollTop();	
 
 	if (wScroll >= lastScrollTop ) {		
-		$(".top-nav").css('background-color','rgba(0,0,0,0.7)');
+		$(".top-nav").css('background-color','rgba(44, 62, 80, 0.7)');
 		$(".top-nav").css('font-size','1.1em');	
 	}
 	else
