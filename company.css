@@ -159,6 +159,11 @@
 		display: none;		
 	}
 
+	.first-section 
+	{
+		padding-top: 10em;
+	}
+	
 	.hero-caption
 	{
 		grid-column-start: 1;
