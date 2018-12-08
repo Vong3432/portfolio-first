@@ -13,6 +13,7 @@
 	</div>
 	<div class="hero-logo">
 		<img src="https://pngimage.net/wp-content/uploads/2018/06/people-flat-design-png.png">
+		<!-- <button>Sign up now</button> -->
 	</div>
 </section>
 

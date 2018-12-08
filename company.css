@@ -75,7 +75,7 @@
 	background-repeat: no-repeat;
 	background-color: rgba(0,0,0,0.7);
 	background-blend-mode: overlay;
-	z-index: -1;
+	z-index: -1;	
 	/*height: 1200px;*/
 }
 
@@ -116,7 +116,7 @@
 }
 
 .hero-logo
-{
+{	
 	grid-column-start: 2;
 	grid-column-end: 4;	
 }
@@ -154,16 +154,16 @@
 
 @media screen and (max-width: 900px)
 {
+	.first-section
+	{
+		height: auto;
+	}
+
 	.top-nav a:not(:first-child)
 	{
 		display: none;		
 	}
 
-	.first-section 
-	{
-		padding-top: 10em;
-	}
-	
 	.hero-caption
 	{
 		grid-column-start: 1;
@@ -172,6 +172,7 @@
 
 	.hero-logo
 	{
+		margin-top: 50px;
 		grid-column-start: 1;
 		grid-column-end: 4;
 	}
